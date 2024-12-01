@@ -1,0 +1,152 @@
+/* ### Primary
+
+- Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  background: hsl(216, 12%, 8%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  font-family: inherit;
+}
+ul {
+  list-style: none;
+}
+
+.container,
+.thank-you {
+  background: hsl(213, 19%, 18%);
+  padding: 30px;
+  margin-bottom: 20px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.container img {
+  background-color: hsl(213, 20%, 22%);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.container h1 {
+  color: white;
+  margin: 10px 0 5px;
+}
+
+.container p {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 10px;
+}
+p {
+  line-height: 1.8rem;
+  font-size: 14px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background: hsl(213, 20%, 22%);
+  border-radius: 50%;
+  border: none;
+  padding: 10px;
+  height: 3rem;
+  width: 3rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: hsl(25, 97%, 53%);
+}
+
+.btn:focus {
+  background: hsl(217, 12%, 63%);
+}
+.button-submit {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  letter-spacing: 2px;
+  font: 20px;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  text-transform: uppercase;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  color: hsl(25, 97%, 53%);
+  background: white;
+}
+
+.centr {
+  text-align: center;
+}
+
+.thank-you img {
+  margin-bottom: 20px;
+  height: 70px;
+}
+
+.para {
+  display: block;
+  margin: 0 auto;
+}
+
+.thank-you p.para {
+  background: hsl(213, 20%, 22%);
+  color: hsl(25, 97%, 53%);
+  padding: 2px;
+  border-radius: 10px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.thank-you h2 {
+  color: white;
+}
+
+.thank-you p {
+  color: hsl(217, 12%, 63%);
+}
